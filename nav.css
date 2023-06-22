@@ -1,0 +1,178 @@
+body{
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-color: rgb(234, 237, 240);
+    
+}
+.navbar{
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPrcfYcFliOO9Y7Kq56W_Lxv3WhJtYoFqECg&usqp=CAU');
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    /* visibility: hidden; */
+}
+.first{
+    float: left;
+}
+.second{
+    float: left;
+    margin-left: 100px;
+}
+.third{
+    float: left;
+    margin-left: 100px;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+.menu li{
+    list-style: none;
+    margin-top: 10px;
+}
+.header .menu li .Sub_menu{
+    position: absolute;
+    width: 180px;
+    background-color: grey;
+    visibility: hidden; 
+    opacity: 0;
+    transform: translateY(20px);
+    transition: .3s all;
+}
+.menu li .Sub_menu li a {
+    color: #fff;
+    font-size: 16px;
+    padding: 0px 9px 10px 9px;
+}
+ .menu li:hover > a{
+
+    color: orange;
+}
+.header .menu li:hover .Sub_menu{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+.header .menu li:hover .Sub_menu li:hover > a{
+    color: orange;
+}
+.btn{
+    float: right;
+    color: black;
+    margin-right: 250px;
+    margin-top: 7px;
+    background-color: orange;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: poppins;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+.form {
+    border:none;
+    margin: 150px 40px 0px 870px;
+    position: fixed;
+    height: 320px;
+    background-color: #fff;
+    border-radius: 6px;
+    width: 395px;
+}
+.form input{
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-right: 15px;
+    width: 358px;
+    height: 42px;
+    border-radius: 6px;
+    border-width: 1pt;
+    font-size: 17px;
+    font-style: inherit;
+}
+.login{
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 365px;
+    height: 42px;
+    margin-bottom: 10px;
+    background-color: rgb(48, 48, 245);
+    border-radius: 6px;
+    color: white;
+    border: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+.login:hover{
+    cursor: pointer;
+    background-color: rgb(65, 65, 214);
+    color: black;
+}
+.form a{
+    margin-left: 130px;
+    color: blue;
+    text-decoration: none;
+}
+.Createaccount{
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 184px;
+    height: 42px;
+    margin-bottom: 10px;
+    background-color: rgb(50, 184, 50);
+    border-radius: 6px;
+    color: white;
+    border: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+.Createaccount:hover{
+    cursor: pointer;
+    color: black;
+    background-color: green;
+}
+.fb_logo{
+    width:287px;
+    height:106px;
+    margin-top: 195px;
+    margin-right: 100px;
+    margin-left: 270px;
+    margin-bottom: 100px;
+    position:fixed;
+    /* background-color: black; */
+}
+.form a:hover{
+    text-decoration: underline;
+}
+.fb {
+    position: absolute;
+    margin-top: 289px;
+    margin-left: 298px;
+    font-size: 28px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+.below_login{
+    position: absolute;
+    margin-top: 490px;
+    margin-left: 921px;
+}
+.below_login a{
+    text-decoration: none  ;
+    color: black;
+}
+.below_login a:hover{
+    text-decoration: underline;
+}
+.footer{
+    bottom: 0;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    color: white;
+}
